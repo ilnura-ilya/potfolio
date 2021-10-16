@@ -22,7 +22,7 @@ function closeMenu() {
     hamburger.classList.remove(".active");
     navMenu.classList.remove(".active");
 }
-
+/*
 $(document).ready(function() {
 	$("#fullpage").fullpage({
 		anchors: ["firstPage", "secondPage", "thirdPage"],
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		autoScrolling:false
 		// responsiveWidth: 750
 	});
-});
+});*/
 
 // ScrollMagic: init controller
 var controller = new ScrollMagic.Controller();
@@ -59,3 +59,47 @@ var scene = new ScrollMagic.Scene({
 	triggerElement: "#section3",
 	duration: 300
 })
+
+
+
+ //Display project
+
+/*const btn = document.querySelector('.projectName');
+const image = document.querySelector('.image-project');
+btn.addEventListener('click', projectDisplay);
+
+function projectDisplay (){
+	document.querySelector('.project-one').style.display = "none";
+	image.style.display = "block";
+
+}*/
+
+const videoOne = document.querySelector(".videoOne");
+console.log(videoOne)
+const overlayOne = document.querySelector(".overlayOne");
+console.log(overlayOne)
+videoOne.addEventListener('click', function () {
+	overlayOne.classList.toggle("active");
+ });
+const closeOverlay = document.querySelector(".closeOverlayOne");
+closeOverlay.addEventListener('click', overlayClose);
+function overlayClose(){
+	overlayOne.classList.remove("active");
+};
+
+ /*
+ document.querySelector('html').classList.remove('no-js');
+      if (!window.Cypress) {
+        const scrollCounter = document.querySelector('.js-scroll-counter');
+
+        AOS.init({
+          mirror: true
+        });
+
+        document.addEventListener('aos:in', function(e) {
+          console.log('in!', e.detail);
+        });
+
+        window.addEventListener('scroll', function() {
+          scrollCounter.innerHTML = window.pageYOffset;
+        });*/

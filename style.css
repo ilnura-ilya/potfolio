@@ -195,20 +195,109 @@ h3{
   max-width: 700px;
 }
 
-.image-one{
-  width: 80%;
-  float: left;
-  margin-right: 50%;
-  margin-bottom: 50px;
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videoSection{
+  
+  padding: 20px 35px 20px 25px;
+  /*background-color: #3C8DAD;*/
+  margin-top: 10px;
+  width: 450px;
+  }
+  h4{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+.overlayOne,
+.overlayTwo,
+.overlayThree,
+.overlayFour {
+  margin: 0 auto;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  width: 510px;
+  height: 270px;
+  background-color: #dbad84;
+  opacity: 0;
+  display: none;
+}
+
+.overlayOne.active,
+.overlayTwo.active,
+.overlayThree.active,
+.overlayFour.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3C8DAD;
+  background-color: #dbad84;
+  border: 5px solid #3c8dad;
+  opacity: 0.93;
+  display: block;
+}
+.videoOne{
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  padding: 5px;
+  border: 3px solid #dbad84;
+  
+  box-shadow: rgba(156, 102, 2, 0.3) 0px 4px 16px, rgba(156, 102, 2, 0.3) 0px 8px 24px, rgba(156, 102, 2, 0.3) 0px 16px 56px;
+  margin: 0;
 }
 .imageOne{
-   width: 50%;
+  width: 100%;
 }
-.selector{
-   width: 100px;
-   height: 100px;
-   color:coral;
+.aos-item {
+  display: inline-block;
+  width: 560px;
+  height: auto;
+  
+  padding: 5px;
+  margin: 20px;
 }
+
+.aos-item::before {
+  content: attr(data-id);
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.overlay{
+text-align: center;
+font-family: "Lato", sans-serif;
+color: #fff;
+}
+.closeOverlayOne{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 16px;
+}
+.toolsUsed{
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+}
+.button:hover{
+  color:#3C8DAD;
+  
+}
+
 
 .contactSection{
   display: flex;
@@ -263,13 +352,8 @@ h3{
   border: 1px solid #fff;
   margin-left: 0;
 }
-.footer{
-  position: fixed;
-  bottom: 0;
-  left: 45%;
-  font-size: 12px;
-  padding: 10px;
-}
+
+
 @media (min-width: 1280px) {
   .description {
     width: 50%;
