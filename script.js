@@ -75,17 +75,40 @@ function projectDisplay (){
 }*/
 
 const videoOne = document.querySelector(".videoOne");
-console.log(videoOne)
+
 const overlayOne = document.querySelector(".overlayOne");
-console.log(overlayOne)
+
 videoOne.addEventListener('click', function () {
 	overlayOne.classList.toggle("active");
  });
-const closeOverlay = document.querySelector(".closeOverlayOne");
-closeOverlay.addEventListener('click', overlayClose);
+
+const closeOverlayOne = document.querySelector(".closeOverlayOne");
+console.log(closeOverlayOne);
+
+
+closeOverlayOne.addEventListener('click', overlayClose);
 function overlayClose(){
 	overlayOne.classList.remove("active");
 };
+
+
+
+const videoTwo = document.querySelector(".videoTwo");
+
+const overlayTwo = document.querySelector(".overlayTwo");
+const closeOverlayTwo = document.querySelector(".closeOverlayTwo");
+
+
+videoTwo.addEventListener('click', function () {
+	overlayTwo.classList.toggle("active");
+ });
+
+closeOverlayTwo.addEventListener('click', overlayCloseTwo);
+function overlayCloseTwo(){
+	overlayTwo.classList.remove("active");
+};
+
+
 
  /*
  document.querySelector('html').classList.remove('no-js');
