@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>GSAP</title>
     <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,6 +55,10 @@
 
         <div class="section" id="aboutSection">
             <div class="contain">
+              <div class="aboutContainer">
+              <div class="photoContainer">
+                <img class="myPhoto" src="images/_DSF2951.jpg" alt="">
+              </div>
                 <div class="description">
                     <span class="aboutSpan">About Me</span>
                     <h3>Hello!</h3>
@@ -76,15 +81,188 @@
                     </ul>
                 </div>
             </div>
+          </div>
+
         </div>
 
         <div class="section" id="projects">
-            <div class="contain">
+            <div class="containProjects">
                 <span class="aboutSpan">Projects</span>
-               <div class="image-one">
-                    <img class="imageOne" src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="">
+               
+            <h5>Click on any project to learn more</h5>
+            <div class="js-scroll-counter scroll-counter"></div>
+
+            <div class="portfolioOne aos-item" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-once="true">
+                <h4>Beauty Blog Project</h4>
+                <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoOne">
+                  <source src="video/beauty-blog.mp4" type="video/mp4" />
+                </video></div>
+
+                
+                <div class="overlayOne">
+                    <div class="overlay">
+                  <i class="fas fa-times fa-2x closeOverlayOne"></i>
+                  <h3>Beauty Blog</h3>
+                  <p>
+                    Blog with informaton about skin care, hair hair and lifestyle.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://beauty-blog-llaila.glitch.me/" class="button" target="_blank">view
+                      live</a>
+                  </div>
+                  </div>
                 </div>
-            </div>
+                
+              </div>
+
+              <div class="portfolioTwo aos-item" data-aos="zoom-out-left" data-aos-duration="3000" data-aos-once="true">
+                <h4>Travel Company Project</h4>
+                <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoTwo hideMobile">
+                  <source src="video/GreenTrails.mp4" type="video/mp4" />
+                </video></div>
+                
+                <div class="overlayTwo">
+                  <div class="overlay">
+                  <i class="fas fa-times fa-2x closeOverlayTwo"></i>
+                  <h3>Travel Company Project</h3>
+                  <p>
+                    Web-site for travel company.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://green-trails.glitch.me/" class="button" target="_blank">view
+                      live</a>
+                    <a href="#" target="_blank" class="button">github</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="portfolioThree aos-item" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-once="true">
+                <h4>Games</h4>
+                <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoThree hideMobile">
+                  <source src="video/games2.mp4" type="video/mp4" />
+                </video></div>
+               
+                <div class="overlayThree">
+
+                  <i class="fas fa-times fa-2x closeOverlayThree"></i>
+                  <h3>Games app</h3>
+                  <p>
+                    App with two games. One game is San-Go-Ku and second game is to guess the movie.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://choose-a-game.glitch.me/" class="button" target="_blank">view
+                      live</a>
+                    <a href="#" target="_blank" class="button">github</a>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="portfolioFour aos-item" data-aos="zoom-out-left" data-aos-duration="3000" data-aos-once="true">
+                <h4>DC_CARGO</h4>
+                <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoFour hideMobile">
+                  <source src="video/dc_cargo.mp4" type="video/mp4" />
+                </video></div>
+               
+                <div class="overlayFour">
+                  <i class="fas fa-times fa-2x closeOverlayFour"></i>
+                  <h3>DC_Cargo</h3>
+                  <p>
+                    Web-site for Cargo Shipping Service Company in Bishkek, Kyrgyzstan.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://maize-bubbly-burst.glitch.me/" class="button">view
+                      live</a>
+                    <a href="#" target="_blank" class="button">github</a>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="portfolioFive aos-item" data-aos="zoom-out-right" data-aos-duration="3000" data-aos-once="true">
+                <h4>Aromatherapy</h4>
+                  <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoFive hideMobile">
+                  <source src="video/aromatherapy.mp4" type="video/mp4" />
+                </video></div>
+               
+                <div class="overlayFive">
+                  <i class="fas fa-times fa-2x closeOverlayFive"></i>
+                  <h3>Aromatherapy</h3>
+                  <p>
+                    A simple app to select aroma oils according your zodiac sign.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://aromatherapy.glitch.me/" class="button">view
+                      live</a>
+                    <a href="#" target="_blank" class="button">github</a>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="portfolioSix aos-item" data-aos="zoom-out-left" data-aos-duration="3000" data-aos-once="true">
+                <h4>Music Player</h4>
+                  <div class="videoSection">
+                <video autoplay loop muted playsinline class="videoSix hideMobile">
+                  <source src="video/musicApp.mp4" type="video/mp4" />
+                </video></div>
+               
+                <div class="overlaySix">
+                  <i class="fas fa-times fa-2x closeOverlaySix"></i>
+                  <h3>Aromatherapy</h3>
+                  <p>
+                    A simple app to select aroma oils according your zodiac sign.
+                  </p>
+                  <ul class="toolsUsed">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="viewProject">
+                    <a href="https://aromatherapy.glitch.me/" class="button">view
+                      live</a>
+                    <a href="#" target="_blank" class="button">github</a>
+                  </div>
+                </div>
+                </a>
+              </div>
+
+
+
+        </div>
         </div>
         
         <div id="bg">
@@ -96,7 +274,11 @@
             <div class="contactSection">
                 
 <div class="sendSection">
-    <span class="aboutSpan">Contact me</span>             
+    <span class="aboutSpan">Contact me</span>  
+    <div class="sendContainer">
+    <h5>I am available for hire and open to any ideas of cooperation.</h5>
+    
+    <p class="address">Email: t.ilnura@gmail.com</p>           
     <form
   action="https://formspree.io/f/meqvwjel"
   method="POST"
@@ -117,13 +299,14 @@
 </form>
                
 <div class="addressSection">
+    <!--<h4>I am available for hire and open to any ideas of cooperation.</h4>
     <p class="address">Ilnura Tashbaeva</p>
     <p class="address">Sparwood, BC, Canada</p>
-    <p class="address">Email: t.ilnura@gmail.com</p>
+    <p class="address">Email: t.ilnura@gmail.com</p>-->
     
 
 </div>
-
+</div></div>
 <div></div>
  </div>
 </div>
@@ -142,8 +325,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
+   
+
 
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
    
