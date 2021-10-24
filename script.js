@@ -75,17 +75,13 @@ function projectDisplay (){
 }*/
 
 const videoOne = document.querySelector(".videoOne");
-
 const overlayOne = document.querySelector(".overlayOne");
+const closeOverlayOne = document.querySelector(".closeOverlayOne");
+console.log(closeOverlayOne);
 
 videoOne.addEventListener('click', function () {
 	overlayOne.classList.toggle("active");
  });
-
-const closeOverlayOne = document.querySelector(".closeOverlayOne");
-console.log(closeOverlayOne);
-
-
 closeOverlayOne.addEventListener('click', overlayClose);
 function overlayClose(){
 	overlayOne.classList.remove("active");
@@ -94,7 +90,6 @@ function overlayClose(){
 
 
 const videoTwo = document.querySelector(".videoTwo");
-
 const overlayTwo = document.querySelector(".overlayTwo");
 const closeOverlayTwo = document.querySelector(".closeOverlayTwo");
 
@@ -108,6 +103,73 @@ function overlayCloseTwo(){
 	overlayTwo.classList.remove("active");
 };
 
+
+const videoThree = document.querySelector(".videoThree");
+const overlayThree = document.querySelector(".overlayThree");
+const closeOverlayThree = document.querySelector(".closeOverlayThree");
+
+
+videoThree.addEventListener('click', function () {
+	overlayThree.classList.toggle("active");
+ });
+
+closeOverlayThree.addEventListener('click', overlayCloseThree);
+function overlayCloseThree(){
+	overlayThree.classList.remove("active");
+};
+
+
+const videoFour = document.querySelector(".videoFour");
+console.log(videoFour);
+const overlayFour = document.querySelector(".overlayFour");
+console.log(overlayFour);
+const closeOverlayFour = document.querySelector(".closeOverlayFour");
+console.log(closeOverlayFour);
+
+
+videoFour.addEventListener('click', function () {
+	overlayFour.classList.toggle("active");
+ });
+
+closeOverlayFour.addEventListener('click', overlayCloseFour);
+function overlayCloseFour(){
+	overlayFour.classList.remove("active");
+};
+
+
+const videoFive = document.querySelector(".videoFive");
+console.log(videoFive);
+const overlayFive = document.querySelector(".overlayFive");
+console.log(overlayFive);
+const closeOverlayFive = document.querySelector(".closeOverlayFive");
+console.log(closeOverlayFive);
+
+
+videoFive.addEventListener('click', function () {
+	overlayFive.classList.toggle("active");
+ });
+
+closeOverlayFive.addEventListener('click', overlayCloseFive);
+function overlayCloseFive(){
+	overlayFive.classList.remove("active");
+};
+
+const videoSix = document.querySelector(".videoSix");
+console.log(videoFive);
+const overlaySix = document.querySelector(".overlaySix");
+console.log(overlayFive);
+const closeOverlaySix = document.querySelector(".closeOverlaySix");
+console.log(closeOverlayFive);
+
+
+videoSix.addEventListener('click', function () {
+	overlaySix.classList.toggle("active");
+ });
+
+closeOverlaySix.addEventListener('click', overlayCloseSix);
+function overlayCloseSix(){
+	overlaySix.classList.remove("active");
+};
 
 
  /*
