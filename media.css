@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1200px){
+   .contain{
+      margin-left: 7%;
+   }
+   h2{
+      font-size: 26px;
+   }
+   h1{
+      font-size: 48px;
+   }
+   .aboutSpan, h3{
+      font-size: 26px;
+   } 
+   .myPhoto{
+      width: 100%;
+      padding-left: 0;
+   }
+   .description{
+      width: 50%;
+      padding: 10px;
+   }
+   .description p{
+      font-size: 18px;
+   }
+   .containProjects{
+      padding-left: 2%;
+   }
+   .aos-item{
+      width: 450px
+   }
+   .videoSection{
+      width: 450px;
+      height: 230px;
+   }
+   .overlayOne,
+.overlayTwo,
+.overlayThree,
+.overlayFour, .overlayFive, .overlaySix {
+  width: 470px;
+  height: 235px;
+ }
+ .toolkit_item{
+   font-size: 36px;
+   margin-right: 40px;
+ }
+}
+@media only screen and (max-width: 1024px){
+   h2{
+      font-size: 25px;
+   }
+   h1{
+      font-size: 46px;
+   }
+   .aboutSpan, h3{
+      font-size: 25px;
+   } 
+   .myPhoto{
+      width: 85%;
+   }
+   .description{
+      width: 60%;
+      margin-left: 20px;
+   }
+
+   .description p{
+      font-size: 16px;
+   }
+   .aos-item{
+      width: 430px
+   }
+   .videoSection{
+      width: 430px;
+      height: 220px;
+   }
+}
