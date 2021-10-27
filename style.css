@@ -11,8 +11,12 @@ body {
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
-
+#fullpage{
+  margin: 0;
+  padding: 0;
+}
 
 .navbar{
   display: flex;
@@ -75,6 +79,7 @@ a {
 
 .section{
   min-height: 100vh;
+  width: auto;
 }
 
 .contain {
@@ -127,7 +132,7 @@ h3{
 }
 .myPhoto{
   width: 80%;
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 50px ;
   }
 
@@ -161,6 +166,10 @@ h3{
   font-family: "Lato", sans-serif;
   font-size: 20px;
   padding-bottom: 15px;
+}
+.school{
+  font-weight: 700;
+  text-shadow: 2px 0 #da8c9a, 0 -2px #da8c9a;
 }
 
 .toolkit{
@@ -319,6 +328,8 @@ color: #fff;
   color: #3C8DAD;
   font-size: 18px;
   font-weight: 900;
+  padding-left: 5px;
+  padding-right: 5px;
   }
 .button:hover{
   color:#fff;
@@ -385,11 +396,7 @@ color: #fff;
 }
 
 
-@media (min-width: 1280px) {
-  .description {
-    width: 50%;
-  }
-}
+
 
 @media (min-width: 600px) {
   .hero-text {
@@ -399,43 +406,8 @@ color: #fff;
      width: 100%;
      padding-bottom: 20px;
   }
-}
-@media only screen and (max-width: 768px) {
-  .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 45px;
-      flex-direction: column;
-      background-color: #dbad84;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
-     /* box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);*/
-  }
-  
- .nav-menu.active {
-      left: 0;
-  }
-
-  .nav-item {
-      margin: 40px 0px;
-  }
-
-  .hamburger {
-      display: block;
-      margin-right: 20px;
-      cursor: pointer;
-  }
-  .active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-}
-
-.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-}
+  .projectDescr{
+    font-size: 17px;
+   margin-top: 20px;
+ }
 }

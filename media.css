@@ -1,7 +1,13 @@
+@media (min-width: 1280px) {
+   .description {
+     width: 50%;
+   }
+ }
 @media only screen and (max-width: 1200px){
    .contain{
       margin-left: 7%;
    }
+   
    h2{
       font-size: 26px;
    }
@@ -55,21 +61,453 @@
       font-size: 25px;
    } 
    .myPhoto{
-      width: 85%;
+      width: 100%;
    }
    .description{
       width: 60%;
-      margin-left: 20px;
+      margin-left: 40px;
    }
 
    .description p{
       font-size: 16px;
    }
    .aos-item{
-      width: 430px
+      width: 480px
    }
    .videoSection{
       width: 430px;
       height: 220px;
    }
+   .overlayOne,
+.overlayTwo,
+.overlayThree,
+.overlayFour, .overlayFive, .overlaySix{
+   width: 445px;
+  height: 225px;
+}
+.projectDescr{
+   font-size: 17px;
+  margin-top: 5px;
+}
+}
+@media only screen and (max-width: 860px){
+   .nav-link{
+      font-size: 17px;
+          }
+   .nav-logo{
+      font-size: 40px;
+   }
+   .spanBrand{
+      font-size: 10px;
+       }
+   h2{
+      font-size: 24px;
+      letter-spacing: 6px;
+   }  
+   h1{
+      font-size: 44px;
+   }
+   .aboutSpan{
+      font-size: 22px;
+   } 
+   .myPhoto{
+      width: 110%;
+   }
+   .description{
+      width: 45%;
+   }
+   .description p{
+      font-size: 15px;
+   }
+   .toolkit_item{
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+   margin-right: 34px;
+      }
+   h3{
+      font-size: 20px;
+   }
+   h4{
+      font-size: 20px;
+   }
+   .aos-item{
+      width: 420px;
+   }
+   .videoSection{
+      width: 370px;
+      height: 220px;
+   }
+   .overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+      width: 390px;
+     height: 190px;
+     top: 85px;
+   }
+   .closeOverlayOne, .closeOverlayTwo, .closeOverlayThree, .closeOverlayFour, .closeOverlayFive, .closeOverlaySix{
+      font-size: 13px;
+    }
+   .toolUsed li{
+      font-size: 12px;
+   }
+   .projectDescr{
+      font-size: 15px;
+     margin-top: 5px;
+   }
+   .button{
+      font-size: 14px;
+   }
+   .sendContainer{
+      padding-left: 15px;
+   }
+   h5{
+      font-size: 16px;
+   }
+   .sendButton{
+      font-size: 22px;
+      padding: 8px;
+   }
+}
+@media only screen and (max-width: 768px) {
+ /*  body{
+      background-color: aqua;
+   }*/
+   .nav-menu {
+       position: fixed;
+       left: -107%;
+       top: -15px;
+       flex-direction: column;
+       background-color: rgb(4, 1, 12);
+       
+       width: 100%;
+       text-align: center;
+       transition: 0.3s;
+       /*display: none;*/
+       
+     }
+   .nav-menu.active {
+       left: 0;
+   }
+   .nav-item {
+       margin: 25px 0px;
+   }
+   .hamburger {
+       display: block;
+       margin-right: 50px;
+       cursor: pointer;
+   }
+   .active .bar:nth-child(2) {
+     opacity: 0;
+ }
+  .active .bar:nth-child(1) {
+     transform: translateY(8px) rotate(45deg);
+ }
+  .active .bar:nth-child(3) {
+     transform: translateY(-8px) rotate(-45deg);
+ }
+   .contain{
+     margin-left: 10%;
+     
+     }
+     .hero-text{
+        padding-top: 30%;
+     }
+.aboutContainer{
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+}
+.photoContainer{
+   width: 95%;
+   text-align: center;
+}
+.description{
+   text-align: center;
+   margin: 0;
+   width: 95%;
+   margin-bottom: 30px;
+}
+.toolkit{
+   justify-content: center;
+}
+.aboutSpan{
+   margin-top: 40px;
+}
+.myPhoto{
+   width: 70%;
+   padding: 0;
+}
+#projects{
+   justify-content: center;
+}
+.containProjects{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+.aos-item {
+  margin-bottom: 0;
+ }
+ .closeOverlayOne, .closeOverlayTwo, .closeOverlayThree, .closeOverlayFour, .closeOverlayFive, .closeOverlaySix{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+ }
+ .about_h3{
+    margin-top: 15px;
+ }
+ h3{
+    font-size: 18px;
+    margin-top: 5px;
+ }
+ .inputSection{
+    width: 330px;
+ }
+ 
+ #bg{
+    left: 0%;
+    top: 5%;
+    
+ }
+ #bg img{
+   max-width: 300px;
+    
+ }
+ .contactSection{
+    justify-content: center;
+ }
+ .sendSection{
+   justify-content: center;
+   text-align: center;
+ }
+}
+@media only screen and (max-width: 650px) {
+   .hero-text{
+      padding-top: 37%;
+   }
+   h2{
+      font-size: 22px;
+      letter-spacing: 4px;
+      text-align: center;
+   }  
+   h1{
+      font-size: 40px;
+      text-align: center;
+   }
+   #bg img{
+      top: 60%;
+      left: 55%;
+   }
+   .aboutSpan{
+      font-size: 20px;
+   }
+   .about_h3{
+      margin-top: 15px;
+      font-size: 17px;
+   }
+   .description p{
+      font-size: 14px;
+   }
+   .videoSection{
+      padding-bottom: 0px;
+      padding-top: 10px;
+   }
+   .overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+     
+     top: 70px;
+   }
+   .sendSection{
+      margin: 0;
+      padding: 0;
+   }
+   .sendContainer{
+      margin: 0;
+      padding: 0;
+
+   }
+}
+@media only screen and (max-width: 550px) {
+   .contain{
+margin-top: 10%;
+
+   }
+h5{
+   margin-bottom: 10px;
+}
+.js-scroll-counter {
+   margin: 0;
+   padding: 0;
+}
+.aos-item{
+   padding-top: 0px;
+}
+h4{
+   margin-top: 0;
+   font-size: 16px;
+}
+h3{
+   display: none;
+}
+.hamburger{
+   margin-right: 30px;
+}
+.toolkit_item{
+   font-size: 26px;
+}
+.overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+     
+     top: 40px;
+   }
+   .projectDescr{
+      font-size: 16px;
+      padding-top: 15px;
+   }
+   .sendButton{
+      font-size: 20px;
+      padding: 5px;
+   }
+}
+@media only screen and (max-width: 470px) {
+   .hero-text{
+      padding-top: 45%;
+   }
+   h2{
+      font-size: 20px;
+      letter-spacing: 4px;
+   }  
+   h1{
+      font-size: 36px;
+   }
+   .aos-item{
+      width: 370px;
+      padding: 0;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      margin: 0;
+   }
+   .videoSection{
+      width: 360px;
+      height: 200px;
+      padding-left: 0;
+      padding-right: 0;
+   }
+   .overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+     top: 53px;
+     left: 0px;
+     width: 365px;
+  height: 185px;
+   }
+   .inputSection{
+      width: 300px;
+   }
+   
+}
+@media only screen and (max-width: 420px) {
+   .nav-item{
+      margin: 10px 0;
+   }
+   .toolkit_item{
+      font-size: 22px;
+      margin-right: 20px;
+   }
+   .aos-item{
+      width: 310px;
+      padding: 0;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      margin: 0;
+   }
+   .videoSection{
+      width: 300px;
+      height: 200px;
+      padding-left: 0;
+      padding-right: 0;
+   }
+   .overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+     top: 55px;
+     left: 0px;
+     width: 305px;
+  height: 152px;
+   }
+   .projectDescr{
+      font-size: 15px;
+      padding-top: 10px;
+   }
+   .toolsUsed{
+      justify-content: space-evenly;
+   }
+   .inputSection{
+      width: 240px;
+   }
+   
+
+}
+@media (max-width: 350px) and (min-width: 285px){
+   h2{
+      padding-top: 20px;
+      font-size: 19px;
+      letter-spacing: 4px;
+   }  
+   h1{
+      font-size: 32px;
+   }
+   h4{
+      font-size: 15px;
+   }
+   .description p{
+      font-size: 14px;
+   }
+   .toolkit_item{
+      font-size: 20px;
+   }
+   .aos-item{
+      width: 270px;
+      padding: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin: 0;
+   }
+   .videoSection{
+      width: 260px;
+      height: 200px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+   }
+   .overlayOne,
+   .overlayTwo,
+   .overlayThree,
+   .overlayFour, .overlayFive, .overlaySix{
+     top: 30px;
+     left: 0px;
+     width: 262px;
+  height: 135px;
+   }
+   .projectDescr{
+      font-size: 14px;
+      padding-top: 3px;
+}
+.toolsUsed{
+   font-size: 13px;
+}
+.inputSection{
+   width: 180px;
+}
+.sendButton{
+   font-size: 18px;
+   padding: 5px;
+}
 }
