@@ -37,7 +37,8 @@ let scene = new ScrollMagic.Scene({
 	maxWidth: "1000px",
 	top: "30%",
 	left: "80%",
-	opacity: 0.18
+	opacity: 0.18,
+	duration: 700
 }) // the tween durtion can be omitted and defaults to 1
 // .addIndicators({ name: "2 (duration: 100)" }) // add indicators (requires plugin)
 .addTo(controller);

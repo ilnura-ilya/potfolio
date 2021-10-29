@@ -155,7 +155,7 @@
      }
      .hamburger {
        display: block;
-       margin-right: 50px;
+       margin-right: 35px;
        cursor: pointer;
      }
      .active .bar:nth-child(2) {
@@ -281,7 +281,7 @@
 
 @media only screen and (max-width: 400px) {
    .hamburger{
-      margin-right: 30px;
+      margin-right: 25px;
    }
    .navbar{
       height: 70px;
