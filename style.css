@@ -134,6 +134,11 @@ a {
  padding: 0px;
 }
 
+#contact{
+  min-height: 85vh;
+  max-height: 85vh;
+}
+
 .contain {
  padding: 7% 5%;
  padding-left: 10%;
