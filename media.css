@@ -109,6 +109,9 @@
       align-content: center;
       flex-wrap: wrap;
    }
+   .row{
+    justify-content: center;
+   }
    .myPhoto{
       width: 65%;
       margin-bottom: 30px;
@@ -120,6 +123,7 @@
     }
     .toolkit{
       justify-content: center;
+      flex-wrap: wrap;
       }
       .toolkit_item{
          font-size: 32px;
@@ -133,6 +137,9 @@
       padding-top: 8%;
       margin-bottom: 0;
       padding-bottom: 0;
+   }
+   .contactLinks{
+    justify-content:center;
    }
  }
 
@@ -155,7 +162,7 @@
      }
      .hamburger {
        display: block;
-       margin-right: 50px;
+       margin-right: 35px;
        cursor: pointer;
      }
      .active .bar:nth-child(2) {
@@ -281,7 +288,7 @@
 
 @media only screen and (max-width: 400px) {
    .hamburger{
-      margin-right: 30px;
+      margin-right: 25px;
    }
    .navbar{
       height: 70px;

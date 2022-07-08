@@ -37,7 +37,8 @@ let scene = new ScrollMagic.Scene({
 	maxWidth: "1000px",
 	top: "30%",
 	left: "80%",
-	opacity: 0.18
+	opacity: 0.18,
+	duration: 700
 }) // the tween durtion can be omitted and defaults to 1
 // .addIndicators({ name: "2 (duration: 100)" }) // add indicators (requires plugin)
 .addTo(controller);
@@ -57,3 +58,53 @@ scene = new ScrollMagic.Scene({
 .addTo(controller);
 
 
+
+// Wrap every letter in a span
+let textWrapper = document.querySelector('.ml12');
+
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+let textWrapperTwo = document.querySelector('.ml13');
+
+textWrapperTwo.innerHTML = textWrapperTwo.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+let tl = anime.timeline({loop: true});
+let tl2 = anime.timeline({loop: true});
+
+tl
+  .add({
+    targets: '.ml12 .letter, .ml13 letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 60 * i
+  }).add({
+    targets: '.ml12 .letterr',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });
+
+  
+
+tl2
+.add({
+  targets: '.ml13 .letter',
+  translateX: [40,0],
+  translateZ: 0,
+  opacity: [0,1],
+  easing: "easeOutExpo",
+  duration: 1200,
+  delay: (el, i) => 500 + 60 * i
+}).add({
+  targets: '.ml13 .letterr',
+  translateX: [0,-30],
+  opacity: [1,0],
+  easing: "easeInExpo",
+  duration: 1100,
+  delay: (el, i) => 100 + 30 * i
+});
