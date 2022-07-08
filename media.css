@@ -109,6 +109,9 @@
       align-content: center;
       flex-wrap: wrap;
    }
+   .row{
+    justify-content: center;
+   }
    .myPhoto{
       width: 65%;
       margin-bottom: 30px;
@@ -120,6 +123,7 @@
     }
     .toolkit{
       justify-content: center;
+      flex-wrap: wrap;
       }
       .toolkit_item{
          font-size: 32px;
@@ -133,6 +137,9 @@
       padding-top: 8%;
       margin-bottom: 0;
       padding-bottom: 0;
+   }
+   .contactLinks{
+    justify-content:center;
    }
  }
 
